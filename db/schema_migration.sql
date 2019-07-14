@@ -7,4 +7,6 @@ CREATE TABLE IF NOT EXISTS pokemon (
   type TEXT
 );
 
+
+
 ALTER TABLE pokemon ADD hp INTEGER DEFAULT(60);
