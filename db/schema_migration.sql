@@ -7,4 +7,4 @@ CREATE TABLE IF NOT EXISTS pokemon (
   type TEXT
 );
 
-INSERT INTO pokemon
+ALTER TABLE pokemon ADD hp VALUE(60hp)
